@@ -22,3 +22,6 @@ Link:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI1OTAxMjUwMF19
+-->
