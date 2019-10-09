@@ -1,8 +1,5 @@
-﻿> Written with [StackEdit](https://stackedit.io/).
-> 
-# Resources
+# Javascript Resources
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Basics
 
@@ -21,7 +18,31 @@ Following topics are covered with some test sandbox environment:
 Link:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 
+Link:
+[https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
+
+### Labs
+
+## Intermediate
+
+
+
+
+### Video Lectures
+
+
+### Blog articles
+
+
+## Node Js
+
+
+### Basics
+
+### Express
+
+### Advanced /Deep dive
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTAxMjUwMF19
+eyJoaXN0b3J5IjpbLTUxMTU4MTM1OSwxMjU5MDEyNTAwXX0=
 -->
