@@ -67,13 +67,13 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 #### Tutorials
 
+- Guide@Expressjs 
+[http://expressjs.com/en/guide/routing.html](http://expressjs.com/en/guide/routing.html)
+
 - Tutorial@CodeForGeek (Step to step app design)
 [https://codeforgeek.com/express-complete-tutorial-part-1/](https://codeforgeek.com/express-complete-tutorial-part-1/)
 
-- Guide@Expressjs
-[http://expressjs.com/en/guide/routing.html](http://expressjs.com/en/guide/routing.html)
-
-- Tutorial@Edureka
+- Tutorial@Edureka (introduction to main concepts)
 [https://www.edureka.co/blog/expressjs-tutorial/](https://www.edureka.co/blog/expressjs-tutorial/)
 
 
@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA1MDYzNzQsODE4ODcwNjY3LC05Mj
+eyJoaXN0b3J5IjpbLTExNTU1NDMyNDIsODE4ODcwNjY3LC05Mj
 g2MDU1ODksMTU1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5ODY4
 MDFdfQ==
 -->
