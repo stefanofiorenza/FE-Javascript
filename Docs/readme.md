@@ -23,9 +23,16 @@ Link:
 
 ### Labs
 
+
+### ES6
+
+
 ## Intermediate
-
-
+- Asynch execution
+- Closures
+- Event Loop
+- Functional programming
+- 
 
 
 
@@ -49,6 +56,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - Node Js Features
 - NPM
 - Node Js CLI
+- Working with modules
 - Events Management
 - 
 
@@ -68,6 +76,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MDc2MzA1LC01MTE1ODEzNTksMTI1OT
-AxMjUwMF19
+eyJoaXN0b3J5IjpbOTY0NzI2MjYwLDkxNTA3NjMwNSwtNTExNT
+gxMzU5LDEyNTkwMTI1MDBdfQ==
 -->
