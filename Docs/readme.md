@@ -67,8 +67,9 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 ### Video Lectures
-Intro to Express@Mosh
+- Intro to Express@Mosh
 [https://www.youtube.com/watch?v=pKd0Rpw7O48](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+- 
 
 
 
@@ -82,6 +83,7 @@ Intro to Express@Mosh
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA5ODY4MDEsMzI4ODUyMzA1LDkxNT
-A3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTk1MzUzNjk5LC0yMDkwOTg2ODAxLDMyOD
+g1MjMwNSw5MTUwNzYzMDUsLTUxMTU4MTM1OSwxMjU5MDEyNTAw
+XX0=
 -->
