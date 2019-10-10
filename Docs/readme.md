@@ -46,17 +46,25 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 ### Basics
-
-### Express
-- What Express is
-- Routing
-- Handling forms
+- Node Js Features
+- NPM
+- Node Js CLI
+- Events Management
 - 
 
 
-### Advanced /Deep dive
+### Express
+- What Express is
+- Handling forms
+- Handling static request
+- Api definition
+- State management
 
+
+### Advanced /Deep dive
+- Node Js Internals
+- -	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjkyMjY1LC01MTE1ODEzNTksMTI1OT
-AxMjUwMF19
+eyJoaXN0b3J5IjpbMTAyMzQ3Mzk5OCwtNTExNTgxMzU5LDEyNT
+kwMTI1MDBdfQ==
 -->
