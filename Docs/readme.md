@@ -65,6 +65,13 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - Api definition
 - State management
 
+
+### Video Lectures
+Intro to Express@Mosh
+[https://www.youtube.com/watch?v=pKd0Rpw7O48](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+
+
+
 ### TDD
 
 
@@ -75,6 +82,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4ODUyMzA1LDkxNTA3NjMwNSwtNTExNT
-gxMzU5LDEyNTkwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTA5ODY4MDEsMzI4ODUyMzA1LDkxNT
+A3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ==
 -->
