@@ -29,12 +29,10 @@ Link:
 
 ## Intermediate
 - Asynch execution
+- Promises
 - Closures
 - Event Loop
 - Functional programming
-- 
-
-
 
 ### Video Lectures
 Event Loop
@@ -76,6 +74,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NzI2MjYwLDkxNTA3NjMwNSwtNTExNT
-gxMzU5LDEyNTkwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbODA0NjQ2ODAsOTE1MDc2MzA1LC01MTE1OD
+EzNTksMTI1OTAxMjUwMF19
 -->
