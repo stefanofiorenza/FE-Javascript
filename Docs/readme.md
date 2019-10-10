@@ -82,8 +82,15 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - Socket.io and realtime
 - 
 
+
+### Production Ready:
+
+- Setting up Development Environment:
+[https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzUzNjk5LC0yMDkwOTg2ODAxLDMyOD
-g1MjMwNSw5MTUwNzYzMDUsLTUxMTU4MTM1OSwxMjU5MDEyNTAw
-XX0=
+eyJoaXN0b3J5IjpbMTU1MzQxNDc4NSwtOTUzNTM2OTksLTIwOT
+A5ODY4MDEsMzI4ODUyMzA1LDkxNTA3NjMwNSwtNTExNTgxMzU5
+LDEyNTkwMTI1MDBdfQ==
 -->
