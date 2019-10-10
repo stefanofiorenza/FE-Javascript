@@ -56,8 +56,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - Node Js CLI
 - Working with modules
 - Events Management
-- 
-
+- Http Server
 
 ### Express
 - What Express is
@@ -65,6 +64,8 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - Handling static request
 - Api definition
 - State management
+
+### TDD
 
 
 ### Advanced /Deep dive
@@ -74,6 +75,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNDY5NjQzLDkxNTA3NjMwNSwtNTExNT
+eyJoaXN0b3J5IjpbMzI4ODUyMzA1LDkxNTA3NjMwNSwtNTExNT
 gxMzU5LDEyNTkwMTI1MDBdfQ==
 -->
