@@ -71,15 +71,16 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 - Guide@Expressjs
 [http://expressjs.com/en/guide/routing.html](http://expressjs.com/en/guide/routing.html)
+- Tutorial@Edureka
+[https://www.edureka.co/blog/expressjs-tutorial/](https://www.edureka.co/blog/expressjs-tutorial/)
 
 
-
-### Video Lectures
+#### Video Lectures
 - Intro to Express@Mosh
 [https://www.youtube.com/watch?v=pKd0Rpw7O48](https://www.youtube.com/watch?v=pKd0Rpw7O48)
 - 
 
-
+#### Lab
 
 ### TDD
 
@@ -98,7 +99,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODYwNTU4OSwxNTUzNDE0Nzg1LC05NT
-M1MzY5OSwtMjA5MDk4NjgwMSwzMjg4NTIzMDUsOTE1MDc2MzA1
-LC01MTE1ODEzNTksMTI1OTAxMjUwMF19
+eyJoaXN0b3J5IjpbLTEwMTE5MDk4MjQsLTkyODYwNTU4OSwxNT
+UzNDE0Nzg1LC05NTM1MzY5OSwtMjA5MDk4NjgwMSwzMjg4NTIz
+MDUsOTE1MDc2MzA1LC01MTE1ODEzNTksMTI1OTAxMjUwMF19
 -->
