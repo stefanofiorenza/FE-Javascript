@@ -62,9 +62,12 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 ### Advanced /Deep dive
-- Node Js Internals
-- -	
+- Node Js thread model
+- Asynchronous execution
+- Socket.io and realtime
+- 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzQ3Mzk5OCwtNTExNTgxMzU5LDEyNT
-kwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbOTE1MDc2MzA1LC01MTE1ODEzNTksMTI1OT
+AxMjUwMF19
 -->
