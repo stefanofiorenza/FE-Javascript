@@ -24,11 +24,11 @@ Link:
 ### Labs
 
 
-### ES6
+### ES6/7
 - Variables (var, let, const)
 - Array
 - OOP class, interfaces
-- 
+- Fetch api
 
 ## Intermediate
 - Asynch / Await
@@ -105,5 +105,5 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDI5NDIyOSwtMTE1NTU0MzI0Ml19
+eyJoaXN0b3J5IjpbNzI0MzYxNzg5LC0xMTU1NTQzMjQyXX0=
 -->
