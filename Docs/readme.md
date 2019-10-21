@@ -25,10 +25,13 @@ Link:
 
 
 ### ES6
-
+- Variables (var, let, const)
+- Array
+- OOP class, interfaces
+- 
 
 ## Intermediate
-- Asynch execution
+- Asynch / Await
 - Promises
 - Closures
 - Event Loop
@@ -102,8 +105,8 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU1NDMyNDIsODE4ODcwNjY3LC05Mj
-g2MDU1ODksMTU1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5ODY4
-MDEsMzI4ODUyMzA1LDkxNTA3NjMwNSwtNTExNTgxMzU5LDEyNT
-kwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTQxNDI5NDIyOSwtMTE1NTU0MzI0Miw4MT
+g4NzA2NjcsLTkyODYwNTU4OSwxNTUzNDE0Nzg1LC05NTM1MzY5
+OSwtMjA5MDk4NjgwMSwzMjg4NTIzMDUsOTE1MDc2MzA1LC01MT
+E1ODEzNTksMTI1OTAxMjUwMF19
 -->
