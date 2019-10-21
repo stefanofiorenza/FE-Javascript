@@ -1,0 +1,37 @@
+VIDEO COURSES:
+
+YARN:
+https://www.youtube.com/watch?v=g9_6KmiBISk
+	https://gist.github.com/bradtraversy/9bdab9c9a0bf94e2c6952d3f89e9e350
+
+https://www.youtube.com/watch?v=7n467QmiANM
+
+
+
+
+Grunt, Gulp, Npm, Webpack and when to use what
+https://www.youtube.com/watch?v=Mn6aj4kY-j8
+
+
+
+
+REACTJS
+
+
+
+
+VUE JS
+
+
+
+
+ANGULAR
+
+
+
+
+
+CSS
+
+	BOOTSTRAP
+	https://www.youtube.com/watch?v=UknF-C_wfFg&list=PL0lNJEnwfVVNQIpSNDeJrLWW6cwHLelTO
