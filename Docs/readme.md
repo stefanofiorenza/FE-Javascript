@@ -18,8 +18,8 @@ Following topics are covered with some test sandbox environment:
 Link:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 
-Link:
-[https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
+Comprehensive guide (including last features ES)
+[https://javascript.info](https://javascript.info/)
 
 ### Labs
 
@@ -105,8 +105,8 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MzYxNzg5LC0xMTU1NTQzMjQyLDgxOD
-g3MDY2NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLTk1MzUzNjk5
-LC0yMDkwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYzMDUsLTUxMT
-U4MTM1OSwxMjU5MDEyNTAwXX0=
+eyJoaXN0b3J5IjpbMTc0Nzg4ODIxMyw3MjQzNjE3ODksLTExNT
+U1NDMyNDIsODE4ODcwNjY3LC05Mjg2MDU1ODksMTU1MzQxNDc4
+NSwtOTUzNTM2OTksLTIwOTA5ODY4MDEsMzI4ODUyMzA1LDkxNT
+A3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ==
 -->
