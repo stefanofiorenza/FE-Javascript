@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<title>Lab02 Airports</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<!-- Bootstrap -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/bootstrap-responsive.min.css" rel="stylesheet" />
+			
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="assets/glyphicons/glyphicons.css" />
+		
+	<!-- resources/theme -->
+	<link rel="stylesheet" href="assets/style.min.css" />
+	
+	<script src="Lab02-AirportData.js"></script>
+	<script src="Lab02-Airports.js"></script>
+	
+	
+</head>
+<body>
+	
+	<!-- Start Content -->
+	<div class="container-fluid fixed">
+		
+					
+<div id="content">
+		<ul class="breadcrumb">
+			<li><a href="index.html?lang=en" class="glyphicons home"><i></i> JS Course</a></li>
+			<li class="divider"></li>
+			<li>BOM</li>
+			<li class="divider"></li>
+			<li>Airports</li>
+		</ul>
+<div class="separator"></div>
+
+<div class="innerLR">
+
+	<div class="widget widget-4">
+		<div class="widget-head">
+			<h3 class="heading">Airports</h3>
+		</div>
+		<div class="widget-body">
+			<p>Load Json data into combo box.</br>
+			When departure is changed, destinations should be updated accordingly (see AirportData.json)</p>
+			<hr class="separator bottom">
+			
+			<div class="widget-body" style="padding: 10px;">
+				<div class="row-fluid">
+				
+				<div class="span3">
+					<strong>Airports</strong>
+					<p class="muted">Load/Update data</p>
+				</div>
+				<div class="span9">
+					<label for="txtName">Departure</label>
+					<select style="width: 200px;" id="slcDepartures">
+					</select>
+					<div class="separator"></div>
+					
+					<label for="txtName">Destinations</label>
+					<select style="width: 200px;" id="slcDestinations">
+					</select>					
+				</div>
+				</div>
+			</div>	
+			
+		</div>
+	</div>	
+	<!-- Delete -->
+	</div>
+			
+	</div>
+</div> <!-- end Content -->
+	
+</div>		
+	
+	
+</body>
+</html>

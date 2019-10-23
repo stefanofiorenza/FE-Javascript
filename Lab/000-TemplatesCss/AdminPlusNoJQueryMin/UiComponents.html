@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<title>AdminPlus - Premium Bootstrap Admin Template (v1.1)</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<!-- Bootstrap -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/bootstrap-responsive.min.css" rel="stylesheet" />
+			
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="assets/glyphicons/glyphicons.css" />
+		
+	<!-- resources/theme -->
+	<link rel="stylesheet" href="assets/style.min.css" />
+		
+		
+	<!-- Uniform -->
+	<!-- Needed for Radio / CheckBoxes -->
+	<link rel="stylesheet" media="screen" href="assets/uniform/uniform.default.css" />
+	
+		
+</head>
+<body>
+	
+	<!-- Start Content -->
+	<div class="container-fluid fixed">
+		
+					
+<div id="content">
+		<ul class="breadcrumb">
+	<li><a href="index.html?lang=en" class="glyphicons home"><i></i> AdminPlus</a></li>
+	<li class="divider"></li>
+	<li>Forms</li>
+	<li class="divider"></li>
+	<li>Form Elements</li>
+</ul>
+<div class="separator"></div>
+
+<div class="innerLR">
+	<div class="widget widget-4">
+		<div class="widget-head">
+			<h3 class="heading">Form Elements</h3>
+		</div>
+		<div class="widget-body">
+			<p>There are various form elements contained in AdminPlus, custom select controls, custom checkbox &amp; radio controls, custom input controls with &amp; without appended / prepended elements (icons, dropdowns, dropups, groups), toggle (on/off) buttons, icons &amp; many more.</p>
+		</div>
+	</div>
+	
+	<div class="widget widget-gray widget-body-white">
+	
+		<div class="widget-head">
+			<h4 class="heading">Input controls</h4>
+		</div>
+				
+		
+		<div class="widget-body" style="padding: 10px 0 0;">
+					
+			<div class="row-fluid">
+			
+				<div class="span2">	
+				</div>
+				
+				<div class="span8">			
+					
+					<div class="widget widget-4">
+						
+						<div class="widget widget-4">
+							<div class="widget-head"><h4 class="heading">Default</h4></div>
+							<div class="separator"></div>
+							<div class="row-fluid">
+								<input type="text" placeholder="Text input" class="span12" />
+							</div>
+						</div>
+			
+						<div class="widget widget-4 row-fluid">
+							<div class="widget-head"><h4 class="heading">Extended</h4></div>
+							<div class="separator"></div>
+							<div class="input-prepend">
+								<span class="add-on">@</span>
+								<input id="prependedInput" class="span12" type="text" placeholder="Username" />
+							</div>
+						</div>
+				
+						<div class="widget widget-4 row-fluid">
+							<div class="widget-head"><h4 class="heading">Combined</h4></div>
+							<div class="separator"></div>
+							<div class="input-prepend input-append">
+								<span class="add-on">$</span>
+								<input class="span12" id="appendedPrependedInput" type="text" placeholder="100,000,000" /> 
+								<span class="add-on">.00</span>
+							</div>
+						</div>
+			
+						<div class="widget widget-4 uniformjs">
+							<div class="widget-head">
+								<h4 class="heading">Checkbox</h4>
+							</div>
+							<div class="separator"></div>
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox" value="1" />
+								Option 1 - Sexy checkbox
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox" value="1" checked="checked" />
+								Option 2 - Checked
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox" value="1" disabled="disabled" />
+								Option 3 - Disabled checkbox
+							</label>
+						</div>	
+								
+						<div class="widget widget-4 uniformjs">
+							<div class="widget-head">
+								<h4 class="heading">Radio</h4>
+							</div>
+							<div class="separator"></div>
+							<label class="radio">
+								<input type="radio" class="radio" name="radio" value="1" />
+								Option 1 - Sexy radio
+							</label><br/>
+							<label class="radio">
+								<input type="radio" class="radio" name="radio" value="1" checked="checked" />
+								Option 2 - Checked
+							</label><br/>
+							<label class="radio">
+								<input type="radio" class="radio disabled" name="radio" value="1" disabled="disabled" />
+								Option 3 - Disabled radio
+							</label>
+						</div>
+						
+						
+						<!-- Select Start-->
+						<div class="widget widget-gray widget-body-white">
+							<div class="widget-head">
+								<h4 class="heading">Advanced Select controls</h4>
+							</div>
+							<div class="widget-body" style="padding: 10px 0;">								
+										<h5>Basics</h5>
+										<div class="row-fluid">
+											<select style="width: 100%;" id="select2_1">
+											   <optgroup label="Alaskan/Hawaiian Time Zone">
+												   <option value="AK">Alaska</option>
+												   <option value="HI">Hawaii</option>
+											   </optgroup>
+											   <optgroup label="Pacific Time Zone">
+												   <option value="CA">California</option>
+												   <option value="NV">Nevada</option>
+												   <option value="OR">Oregon</option>
+												   <option value="WA">Washington</option>
+											   </optgroup>
+											   <optgroup label="Mountain Time Zone">
+												   <option value="AZ">Arizona</option>
+												   <option value="CO">Colorado</option>
+												   <option value="ID">Idaho</option>
+												   <option value="MT">Montana</option><option value="NE">Nebraska</option>
+												   <option value="NM">New Mexico</option>
+												   <option value="ND">North Dakota</option>
+												   <option value="UT">Utah</option>
+												   <option value="WY">Wyoming</option>
+											   </optgroup>
+											   <optgroup label="Central Time Zone">
+												   <option value="AL">Alabama</option>
+												   <option value="AR">Arkansas</option>
+												   <option value="IL">Illinois</option>
+												   <option value="IA">Iowa</option>
+												   <option value="KS">Kansas</option>
+												   <option value="KY">Kentucky</option>
+												   <option value="LA">Louisiana</option>
+												   <option value="MN">Minnesota</option>
+												   <option value="MS">Mississippi</option>
+												   <option value="MO">Missouri</option>
+												   <option value="OK">Oklahoma</option>
+												   <option value="SD">South Dakota</option>
+												   <option value="TX">Texas</option>
+												   <option value="TN">Tennessee</option>
+												   <option value="WI">Wisconsin</option>
+											   </optgroup>
+											   <optgroup label="Eastern Time Zone">
+												   <option value="CT">Connecticut</option>
+												   <option value="DE">Delaware</option>
+												   <option value="FL">Florida</option>
+												   <option value="GA">Georgia</option>
+												   <option value="IN">Indiana</option>
+												   <option value="ME">Maine</option>
+												   <option value="MD">Maryland</option>
+												   <option value="MA">Massachusetts</option>
+												   <option value="MI">Michigan</option>
+												   <option value="NH">New Hampshire</option><option value="NJ">New Jersey</option>
+												   <option value="NY">New York</option>
+												   <option value="NC">North Carolina</option>
+												   <option value="OH">Ohio</option>
+												   <option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option>
+												   <option value="VT">Vermont</option><option value="VA">Virginia</option>
+												   <option value="WV">West Virginia</option>
+											   </optgroup>
+											</select>
+														
+									<!-- fine-->
+									</div>
+									
+									
+									
+							<div class="widget widget-4 row-fluid">
+								<div class="widget-head"><h4 class="heading">Alerts</h4></div>
+								<div class="separator"></div>	
+												
+								<div class="alert">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong>Warning!</strong> Best check yo self, you're not looking
+									too good.
+								</div>
+								<div class="alert alert-error">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong>Oh snap!</strong> Change a few things up and try submitting
+									again.
+								</div>
+							
+								<div class="alert alert-success">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong>Well done!</strong> You successfully read this important
+									alert message.
+								</div>
+							
+								<div class="alert alert-info">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong>Heads up!</strong> This alert needs your attention, but
+									it's not super important.
+								</div>
+							
+								<div class="alert alert-block alert-error fade in">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<h4 class="alert-titleing">Oh snap! You got an error!</h4>
+									<p>Change this and that and try again. Duis mollis, est non commodo
+										luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+										elit. Cras mattis consectetur purus sit amet fermentum.</p>
+									<p>
+										<a class="btn btn-danger btn-icon glyphicons circle_arrow_right" href="#"><i></i>Take this action</a> 
+										<a class="btn btn-success btn-icon glyphicons leaf" href="#"><i></i>Or do this</a>
+									</p>
+								</div>
+											
+							</div>	
+
+
+							<div class="widget widget-4 row-fluid">
+								<div class="widget-head"><h4 class="heading">Buttons</h4></div>
+								<div class="separator"></div>	
+
+								<div class="widget-body" style="padding: 10px 0;">	
+										<button class="btn dropdown-lead btn-default">Default</button>
+										<button class="btn dropdown-lead btn-success">Success</button>
+										<button class="btn dropdown-lead btn-info">Info btn</button>						
+										<button class="btn dropdown-lead btn-warning btn-icon glyphicons circle_exclamation_mark">
+										<i></i>Warning
+										</button>
+										<button class="btn dropdown-lead btn-inverse">Inverse</button>
+										</br>
+										
+										<button class="btn dropdown-lead btn-default btn-small">Default</button>
+										<button class="btn dropdown-lead btn-success btn-small">Success</button>
+										<button class="btn dropdown-lead btn-info btn-small">Info btn</button>						
+										<button class="btn dropdown-lead btn-warning btn-icon glyphicons circle_exclamation_mark btn-small">
+										<i></i>Warning
+										</button>
+										<button class="btn dropdown-lead btn-inverse btn-small">Inverse</button>																	
+										</br>
+										<a class="btn btn-danger btn-icon glyphicons circle_arrow_right" href="#">
+										<i></i>Danger</a> 
+										
+										<a class="btn btn-success btn-icon glyphicons leaf" href="#">
+										<i></i>Success
+										</a>
+								</div>								
+									
+									
+										
+									
+									
+								</div>
+
+							</div>
+								
+									
+							</div>	
+						</div>	<!-- Select End-->
+			
+					</div>						
+				</div>	
+				
+				<div class="span2">	
+				</div>				
+			</div>
+			
+						
+		</div>	
+	</div>
+			
+	</div>
+</div> <!-- end Content -->
+	
+</div>		
+	
+	
+</body>
+</html>
