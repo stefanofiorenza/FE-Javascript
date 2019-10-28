@@ -15,11 +15,8 @@ Following topics are covered with some test sandbox environment:
  - AJAX
  - JQuery
 
-Link:
+Suggested learning resources:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
-
-Comprehensive guide (including last features ES)
-[https://javascript.info](https://javascript.info/)
 
 ### Labs
 
@@ -30,6 +27,12 @@ Comprehensive guide (including last features ES)
 - Array
 - OOP class, interfaces
 - Fetch api
+
+Comprehensive guide (including last features ES)
+[https://javascript.info](https://javascript.info/)
+
+
+
 
 ## Advanced
 - Asynch / Await
@@ -108,6 +111,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODgxNjIzOSwxOTAwODk5NjExLDE3ND
+eyJoaXN0b3J5IjpbLTQ3ODk1NjM4OSwxOTAwODk5NjExLDE3ND
 c4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyXX0=
 -->
