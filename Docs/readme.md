@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 ### Basics
 - Node Js Features
 - NPM
-- Node Js CLI
+- REPL
 - Working with modules
 - Events Management
 - Http Server
@@ -92,8 +92,10 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 ### Advanced /Deep dive
-- Node Js thread model
-- Asynchronous execution
+- Node Js thread model:
+- 
+- Asynchronous execution:
+- 
 - Socket.io and realtime
 - 
 
@@ -105,8 +107,9 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzg4ODIxMyw3MjQzNjE3ODksLTExNT
-U1NDMyNDIsODE4ODcwNjY3LC05Mjg2MDU1ODksMTU1MzQxNDc4
-NSwtOTUzNTM2OTksLTIwOTA5ODY4MDEsMzI4ODUyMzA1LDkxNT
-A3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTkwMDg5OTYxMSwxNzQ3ODg4MjEzLDcyND
+M2MTc4OSwtMTE1NTU0MzI0Miw4MTg4NzA2NjcsLTkyODYwNTU4
+OSwxNTUzNDE0Nzg1LC05NTM1MzY5OSwtMjA5MDk4NjgwMSwzMj
+g4NTIzMDUsOTE1MDc2MzA1LC01MTE1ODEzNTksMTI1OTAxMjUw
+MF19
 -->
