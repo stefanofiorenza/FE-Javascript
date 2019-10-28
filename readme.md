@@ -28,6 +28,8 @@ Suggested learning resources:
 - OOP class, interfaces
 - Fetch api
 
+Suggested learning resources:
+
 Comprehensive guide (including last features ES)
 [https://javascript.info](https://javascript.info/)
 
@@ -111,6 +113,6 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODk1NjM4OSwxOTAwODk5NjExLDE3ND
+eyJoaXN0b3J5IjpbLTU1MjE1MTEwMywxOTAwODk5NjExLDE3ND
 c4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyXX0=
 -->
