@@ -19,6 +19,22 @@ Suggested learning resources:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 
 ### Labs
+ - Syntax
+ 
+ - Functions
+
+ - Built in Object:
+ 
+ - Javascript OOP and Json format:
+ 
+ - Browser Object Model (BOM):
+ 
+ - Document Object Model (DOM):
+ 
+ - AJAX:
+ 
+ - JQuery
+
 
 
 ### Intermediate
@@ -32,8 +48,6 @@ Suggested learning resources:
 
 Comprehensive guide (including last features ES)
 [https://javascript.info](https://javascript.info/)
-
-
 
 
 ## Advanced
@@ -59,9 +73,9 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzQyMTI5NSwxOTAwODk5NjExLDE3ND
-c4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyLDgxODg3MDY2
-NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLTk1MzUzNjk5LC0yMD
-kwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYzMDUsLTUxMTU4MTM1
-OSwxMjU5MDEyNTAwXX0=
+eyJoaXN0b3J5IjpbLTE5NzE0MTYwNTksMTM3NzQyMTI5NSwxOT
+AwODk5NjExLDE3NDc4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQz
+MjQyLDgxODg3MDY2NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLT
+k1MzUzNjk5LC0yMDkwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYz
+MDUsLTUxMTU4MTM1OSwxMjU5MDEyNTAwXX0=
 -->
