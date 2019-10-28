@@ -28,8 +28,13 @@ Suggested learning resources:
 - OOP class, interfaces
 - Fetch api
 
+Suggested learning resources:
+
 Comprehensive guide (including last features ES)
 [https://javascript.info](https://javascript.info/)
+
+
+
 
 ## Advanced
 - Asynch / Await
@@ -108,9 +113,9 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE0NTc3MTEsMTkwMDg5OTYxMSwxNz
-Q3ODg4MjEzLDcyNDM2MTc4OSwtMTE1NTU0MzI0Miw4MTg4NzA2
-NjcsLTkyODYwNTU4OSwxNTUzNDE0Nzg1LC05NTM1MzY5OSwtMj
-A5MDk4NjgwMSwzMjg4NTIzMDUsOTE1MDc2MzA1LC01MTE1ODEz
-NTksMTI1OTAxMjUwMF19
+eyJoaXN0b3J5IjpbLTU1MjE1MTEwMywxOTAwODk5NjExLDE3ND
+c4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyLDgxODg3MDY2
+NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLTk1MzUzNjk5LC0yMD
+kwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYzMDUsLTUxMTU4MTM1
+OSwxMjU5MDEyNTAwXX0=
 -->
