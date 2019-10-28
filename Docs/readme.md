@@ -24,13 +24,14 @@ Comprehensive guide (including last features ES)
 ### Labs
 
 
-### ES6/7
+### Intermediate
+ ES6/7
 - Variables (var, let, const)
 - Array
 - OOP class, interfaces
 - Fetch api
 
-## Intermediate
+## Advanced
 - Asynch / Await
 - Promises
 - Closures
@@ -107,9 +108,9 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDg5OTYxMSwxNzQ3ODg4MjEzLDcyND
-M2MTc4OSwtMTE1NTU0MzI0Miw4MTg4NzA2NjcsLTkyODYwNTU4
-OSwxNTUzNDE0Nzg1LC05NTM1MzY5OSwtMjA5MDk4NjgwMSwzMj
-g4NTIzMDUsOTE1MDc2MzA1LC01MTE1ODEzNTksMTI1OTAxMjUw
-MF19
+eyJoaXN0b3J5IjpbLTgzODgxNjIzOSwxOTAwODk5NjExLDE3ND
+c4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyLDgxODg3MDY2
+NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLTk1MzUzNjk5LC0yMD
+kwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYzMDUsLTUxMTU4MTM1
+OSwxMjU5MDEyNTAwXX0=
 -->
