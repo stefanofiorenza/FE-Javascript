@@ -25,22 +25,18 @@ Suggested learning resources:
  - Javascript OOP and Json format:
  
  -- Variables (var, let, const)
-- Array
-- OOP class, interfaces
+-  Array
+-  OOP class, interfaces
 
 
 
 ### Intermediate
 
- Browser Object Model (BOM)
+ - Browser Object Model (BOM)
  - Document Object Model (DOM)
  - AJAX
  - JQuery
-
- ES6/7
-
 - Fetch api
-
 Suggested learning resources:
 
 Comprehensive guide (including last features ES)
@@ -70,7 +66,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTU5MTE5MywtMTk3MTQxNjA1OSwxMz
+eyJoaXN0b3J5IjpbLTM4MjU0MjgxMiwtMTk3MTQxNjA1OSwxMz
 c3NDIxMjk1LDE5MDA4OTk2MTEsMTc0Nzg4ODIxMyw3MjQzNjE3
 ODksLTExNTU1NDMyNDIsODE4ODcwNjY3LC05Mjg2MDU1ODksMT
 U1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5ODY4MDEsMzI4ODUy
