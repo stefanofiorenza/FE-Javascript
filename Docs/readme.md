@@ -10,10 +10,7 @@ Following topics are covered with some test sandbox environment:
  - Functions
  - Built in Object
  - Javascript OOP and Json format
- - Browser Object Model (BOM)
- - Document Object Model (DOM)
- - AJAX
- - JQuery
+ -
 
 Suggested learning resources:
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
@@ -27,21 +24,21 @@ Suggested learning resources:
  
  - Javascript OOP and Json format:
  
- - Browser Object Model (BOM):
- 
- - Document Object Model (DOM):
- 
- - AJAX:
- 
- - JQuery
+ -- Variables (var, let, const)
+- Array
+- OOP class, interfaces
 
 
 
 ### Intermediate
+
+ Browser Object Model (BOM)
+ - Document Object Model (DOM)
+ - AJAX
+ - JQuery
+
  ES6/7
-- Variables (var, let, const)
-- Array
-- OOP class, interfaces
+
 - Fetch api
 
 Suggested learning resources:
@@ -73,9 +70,10 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE0MTYwNTksMTM3NzQyMTI5NSwxOT
-AwODk5NjExLDE3NDc4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQz
-MjQyLDgxODg3MDY2NywtOTI4NjA1NTg5LDE1NTM0MTQ3ODUsLT
-k1MzUzNjk5LC0yMDkwOTg2ODAxLDMyODg1MjMwNSw5MTUwNzYz
-MDUsLTUxMTU4MTM1OSwxMjU5MDEyNTAwXX0=
+eyJoaXN0b3J5IjpbLTM2NTU5MTE5MywtMTk3MTQxNjA1OSwxMz
+c3NDIxMjk1LDE5MDA4OTk2MTEsMTc0Nzg4ODIxMyw3MjQzNjE3
+ODksLTExNTU1NDMyNDIsODE4ODcwNjY3LC05Mjg2MDU1ODksMT
+U1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5ODY4MDEsMzI4ODUy
+MzA1LDkxNTA3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ
+==
 -->
