@@ -43,6 +43,7 @@ Comprehensive guide (including last features ES)
 [https://javascript.info](https://javascript.info/)
 
 
+
 ## Advanced
 - Asynch / Await
 - Promises
@@ -66,10 +67,10 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjU0MjgxMiwtMTk3MTQxNjA1OSwxMz
-c3NDIxMjk1LDE5MDA4OTk2MTEsMTc0Nzg4ODIxMyw3MjQzNjE3
-ODksLTExNTU1NDMyNDIsODE4ODcwNjY3LC05Mjg2MDU1ODksMT
-U1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5ODY4MDEsMzI4ODUy
-MzA1LDkxNTA3NjMwNSwtNTExNTgxMzU5LDEyNTkwMTI1MDBdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MDU0NDQ1OCwtMzgyNTQyODEyLC0xOT
+cxNDE2MDU5LDEzNzc0MjEyOTUsMTkwMDg5OTYxMSwxNzQ3ODg4
+MjEzLDcyNDM2MTc4OSwtMTE1NTU0MzI0Miw4MTg4NzA2NjcsLT
+kyODYwNTU4OSwxNTUzNDE0Nzg1LC05NTM1MzY5OSwtMjA5MDk4
+NjgwMSwzMjg4NTIzMDUsOTE1MDc2MzA1LC01MTE1ODEzNTksMT
+I1OTAxMjUwMF19
 -->
