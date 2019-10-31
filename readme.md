@@ -73,9 +73,11 @@ Check browser compatibility:
 [https://caniuse.com/#search=fetch](https://caniuse.com/#search=fetch)
 
 
-OTHER
+###  EXERCISES RESOURCES:
+https://www.w3resource.com/
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg2MTAzNzAsLTM4MjU0MjgxMiwtMT
-k3MTQxNjA1OSwxMzc3NDIxMjk1LDE5MDA4OTk2MTEsMTc0Nzg4
-ODIxMyw3MjQzNjE3ODksLTExNTU1NDMyNDJdfQ==
+eyJoaXN0b3J5IjpbLTg4NjE4NDY0OSwtMzgyNTQyODEyLC0xOT
+cxNDE2MDU5LDEzNzc0MjEyOTUsMTkwMDg5OTYxMSwxNzQ3ODg4
+MjEzLDcyNDM2MTc4OSwtMTE1NTU0MzI0Ml19
 -->
