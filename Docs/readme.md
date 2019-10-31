@@ -65,12 +65,20 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 ### Labs
 
 
+### Toolset:
+
+
+
+Check browser compatibility:
+[https://caniuse.com/#search=fetch](https://caniuse.com/#search=fetch)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU0NDQ1OCwtMzgyNTQyODEyLC0xOT
-cxNDE2MDU5LDEzNzc0MjEyOTUsMTkwMDg5OTYxMSwxNzQ3ODg4
-MjEzLDcyNDM2MTc4OSwtMTE1NTU0MzI0Miw4MTg4NzA2NjcsLT
-kyODYwNTU4OSwxNTUzNDE0Nzg1LC05NTM1MzY5OSwtMjA5MDk4
-NjgwMSwzMjg4NTIzMDUsOTE1MDc2MzA1LC01MTE1ODEzNTksMT
-I1OTAxMjUwMF19
+eyJoaXN0b3J5IjpbLTE5ODY5MTcyNzQsLTM4MjU0MjgxMiwtMT
+k3MTQxNjA1OSwxMzc3NDIxMjk1LDE5MDA4OTk2MTEsMTc0Nzg4
+ODIxMyw3MjQzNjE3ODksLTExNTU1NDMyNDIsODE4ODcwNjY3LC
+05Mjg2MDU1ODksMTU1MzQxNDc4NSwtOTUzNTM2OTksLTIwOTA5
+ODY4MDEsMzI4ODUyMzA1LDkxNTA3NjMwNSwtNTExNTgxMzU5LD
+EyNTkwMTI1MDBdfQ==
 -->
