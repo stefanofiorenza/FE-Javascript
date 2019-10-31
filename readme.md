@@ -73,11 +73,16 @@ Check browser compatibility:
 [https://caniuse.com/#search=fetch](https://caniuse.com/#search=fetch)
 
 
+Mock Apis:
+[https://reqres.in/](https://reqres.in/)
+
+
 ###  EXERCISES RESOURCES:
 https://www.w3resource.com/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjE4NDY0OSwtMzgyNTQyODEyLC0xOT
-cxNDE2MDU5LDEzNzc0MjEyOTUsMTkwMDg5OTYxMSwxNzQ3ODg4
-MjEzLDcyNDM2MTc4OSwtMTE1NTU0MzI0Ml19
+eyJoaXN0b3J5IjpbLTEzMzg4ODA2OSwtODg2MTg0NjQ5LC0zOD
+I1NDI4MTIsLTE5NzE0MTYwNTksMTM3NzQyMTI5NSwxOTAwODk5
+NjExLDE3NDc4ODgyMTMsNzI0MzYxNzg5LC0xMTU1NTQzMjQyXX
+0=
 -->
