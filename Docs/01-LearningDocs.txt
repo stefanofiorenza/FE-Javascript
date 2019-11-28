@@ -5,3 +5,18 @@
 Guides:
 
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://exploringjs.com/impatient-js/toc.html
+
+
+Destructuring Operators
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Syntax
+https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
+
+
+Spread Operators:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun
+
+FETCH API:
+https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e
+https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data

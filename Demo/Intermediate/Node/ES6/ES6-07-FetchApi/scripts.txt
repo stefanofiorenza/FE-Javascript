@@ -1,0 +1,6 @@
+
+> sudo npm init
+
+> sudo npm install --save xmlhttprequest
+> sudo npm install --save node-fetch
+> sudo npm install --save axios
