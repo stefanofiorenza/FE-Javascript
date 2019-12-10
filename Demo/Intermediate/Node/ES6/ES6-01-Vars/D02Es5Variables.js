@@ -24,9 +24,10 @@
         */
   
         /*
-        {var z=9;}
+        {let z=9;}
         console.log(z); //what will it print?
         */
+        
 
   //Issue (2.3) and (2.4) Override vars in common/nested scopes
   /** //2) let variables live only in the scope of their declaration block */
@@ -46,4 +47,6 @@
 
         // prints 'Function Outer declaration'
         insidious(); // thisShouldBeNotOverriden means something according to execution context (each block has its own copy)
+        console.log(thisShouldBeNotOverriden); 
     */
+    

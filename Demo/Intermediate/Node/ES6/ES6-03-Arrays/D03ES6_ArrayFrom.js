@@ -35,7 +35,7 @@
     console.log(Array.from (setIsArrayLike));
     */
 
-//5) Array.from (source, conversionFunction)
+//5) Array.from (source, conversionFunction)  /** Most used for extracting columns from dataset as api response */
 /*
 let data = [
     {name:"Stefano", surname:"Fiorenza"},

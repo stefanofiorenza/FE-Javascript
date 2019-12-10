@@ -17,7 +17,7 @@
     array['city']='Tallinn';
     array['street']='Viru';
 
-    console.log(array['street']);
+    console.log("Value for Street: "+array['street']);
 
     for (k in array){ //accessible only from enumerable keys for..in
         console.log(array[k]);
@@ -29,11 +29,11 @@
 
 
  //************************TEST****************************/
- /*
+ 
  for (let i=0; i<array.length; i++){
      console.log(array[i]);
  }
-*/
+
 
 
 

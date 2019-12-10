@@ -20,21 +20,28 @@ let stefano = {
 //********************TEST ******************* */
 
 //1) loop on object members (keys are iterable)
-console.log("Test Dynamically Inspect Object members")
-for (let m in stefano){
-    console.log(m+ ": "+stefano[m]); //access object member name and current value
-}
+/*
+    console.log("Test Dynamically Inspect Object members")
+    for (let m in stefano){
+        console.log(m+ ": "+stefano[m]); //access object member name and current value
+    }
+*/
 
 //2) Call property dynamically 
-console.log("Test Dynamically called property")
-let propFirstName='firstName'
-console.log(stefano[propFirstName]);
+/*
+    console.log("Test Dynamically called property")
+    let propFirstName='firstName'
+    console.log(stefano[propFirstName]);
+*/
 
 //3) (function pointer + ()) same as (function)()
+/*
 console.log("Test Dynamically called method")
 stefano["sayHello"]();
+*/
 
 //4) All together:
+/*
 console.log("Test Full Introspection")
 for (let m in stefano){ //loop on member names
     if((typeof stefano[m]) ==='function'){
@@ -43,3 +50,4 @@ for (let m in stefano){ //loop on member names
         console.log(m+ ": "+stefano[m]);
     }   
 }
+*/

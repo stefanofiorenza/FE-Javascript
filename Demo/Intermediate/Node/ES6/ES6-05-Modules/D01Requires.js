@@ -11,6 +11,7 @@ The require function will look for files in the following order:
 
 */
 
+//use library code
 fs.readFile('./file.txt', 'utf-8', (err, data) => {
   if(err) { throw err; }
   console.log('data: ', data);

@@ -15,10 +15,13 @@ let array=[1,2,3,4,5,6,7,8,9,10];
 */
 
 //3) find(function), findIndex(function)
-/*
+
     let foundElement= array.find(  n => n==8);
     console.log(foundElement);
-*/
+
+    let foundElementIndex= array.findIndex(  n => n==8);
+    console.log("Index: "+foundElementIndex);
+
 
 /*
     let foundElementIndex= array.findIndex(  n => n==8);
@@ -45,6 +48,7 @@ let employees = [
     {name:"George", surname:"Orwell", salary:1100, company:"AB"},
 ]
 
+
 //5.1) Sum all salaries from employees from AB company
     /*
         let salariesFromAb = employees.filter(employee => employee.company==='AB').reduce((salaries, emp) =>{
@@ -61,12 +65,13 @@ let employees = [
 
 //5.2) Map into array of new objects {fullName, salary} all employees from AB
     
+/*
     let nameAndSalaryFromAb=employees.filter(employee => employee.company==='AB')
                                         .map((employee) => {
                                             return {fullName: employee.name+" "+employee.surname,salary : employee.salary};
                                         });
     console.log(...nameAndSalaryFromAb);
-    
+ */   
 
 
 //6) keys and values

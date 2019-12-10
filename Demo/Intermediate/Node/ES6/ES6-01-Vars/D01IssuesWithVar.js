@@ -7,12 +7,13 @@
  */
 
 //1)  undeclared is always global
-/*
+
+    /*
     for (i=0 ; i<10; i++){
         //do something...
     }
     console.log(i); //what will it print?
-*/
+    */
 
 //2) var scopes: issues
 
@@ -42,7 +43,7 @@
 
         /*
         function myFunction() {
-            var innerVariable=7;
+            var innerVariable=7;           
         }
       
         myFunction();
@@ -53,31 +54,38 @@
         /** inner scope overrides outer, without exception on same var name */
         /**Expected would be either exception on declaration (same name in nested scopes) OR variable are indipendent (invisible in outer scopes) */
 
-    /*
+    
+        /*
         function insidious() {
-            var functionScoped = 'Outer declaration'; 
+                var functionScoped = 'Outer declaration'; 
 
-            if (true) {
-                var functionScoped = 'Inner declaration'; 
-            }
-            console.log(functionScoped); 
+                if (true) {
+                    var functionScoped = 'Inner declaration'; 
+                }
+                console.log(functionScoped); 
                 return functionScoped;
             }
 
             // prints 'Inner declaration'
             insidious();
-     */   
+            
+            // try to guess what happens here... -> console.log(functionScoped); 
+        */
+
 
     //2.4) Nothing prevents me from accidentally use same variable in nested scopes...
+    
+    /*
         var x= 9;
 
         //... many code lines after...
 
         var x="Stefano";
         console.log(x);
-
+    */
 
 //3) How to set constant ? (var is always mutable)
+/*
     var x=8;
     x="Stefano";
     x=10.9;
@@ -85,4 +93,5 @@
     const y=0;
     // y="Stefano"; //decomment this will trigger exception at runtime
 
+    */
 

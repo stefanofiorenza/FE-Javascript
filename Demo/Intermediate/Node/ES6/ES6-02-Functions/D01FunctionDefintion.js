@@ -3,8 +3,9 @@ function identity(n) { // <1>
     return n;
   }
 
+  let x=42;
   // Tests
-  console.assert(identity(42) === 42);
+  console.assert(identity(x) === 42,"Expected 41 found "+x);
   console.assert((typeof identity) === 'function'); // <2>
   console.assert(identity.name === 'identity'); // <3>
 

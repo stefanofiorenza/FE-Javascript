@@ -22,10 +22,10 @@ import {testFunction,logFunctionDetails } from './D00FunctionCommon.mjs';
 
 
 /** Note:
- * Function statements are loaded before any of the code is executed.
+ * Function statements are loaded before any of the code is executed. 
  * You can even invoke the function before defining it as a function statement.
  * 
- * Functions as variables apply the hoisting rules.
+ * Functions as variables apply variable rules.
  * 
  */
 
