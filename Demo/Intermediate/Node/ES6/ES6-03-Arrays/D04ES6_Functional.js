@@ -51,15 +51,17 @@ let employees = [
 
 //5.1) Sum all salaries from employees from AB company
     /*
+        let initialSalaryValue = 0;
         let salariesFromAb = employees.filter(employee => employee.company==='AB').reduce((salaries, emp) =>{
             salaries+=emp.salary;
             return salaries;
-        },0);
+        },initialSalaryValue);
         console.log(salariesFromAb);
     */
 
     /* Or more succint...
-        let salariesFromAb = employees.filter(employee => employee.company==='AB').reduce((salaries, emp) =>salaries+=emp.salary,0);
+        let initialSalaryValue = 0;
+        let salariesFromAb = employees.filter(employee => employee.company==='AB').reduce((salaries, emp) =>salaries+=emp.salary,initialSalaryValue);
         console.log(salariesFromAb);
     */
 

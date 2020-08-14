@@ -20,3 +20,6 @@ https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fu
 FETCH API:
 https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e
 https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+
+High Order functions:
+https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
