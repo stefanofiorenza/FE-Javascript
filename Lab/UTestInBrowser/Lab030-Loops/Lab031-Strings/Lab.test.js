@@ -1,8 +1,8 @@
 //See https://www.chaijs.com/api/assert/ 
 
-describe('variables', function () {  
+describe('encodeCaesarCipher', function () {  
 
-	it('myFirstVariable should be a string', function() {	
+	it('output should be a sequence of numbers', function() {	
 		chai.assert.typeOf(myFirstVariable, 'string', 'myFirstVariable should be a string'); 
 	});
 				  

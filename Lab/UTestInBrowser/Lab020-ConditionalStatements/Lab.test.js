@@ -1,65 +1,83 @@
 //See https://www.chaijs.com/api/assert/ 
 
-describe('variables', function () {  
+describe('compare test', function () {  
 
-	it('myFirstVariable should be a string', function() {	
-		chai.assert.typeOf(myFirstVariable, 'string', 'myFirstVariable should be a string'); 
+	let msg='compare 1 with 1 should return 0'
+	it(msg, function() {	
+		chai.assert.equal(compare(1,1), 0, msg); 
+	});
+	
+	msg='compare -10 with 1 should return -1'
+	it(msg, function() {	
+		chai.assert.equal(compare(-10,1), -1, msg); 
+	});
+	
+	msg='compare 10 with 1 should return 1'
+	it(msg, function() {	
+		chai.assert.equal(compare(10,1), 1, msg); 
 	});
 				  
 });	
-	
-describe('express operators boolean condition as var for X=8', function () { 	
 
-	var msg='isX_HigherThan2 should be a boolean'
+
+describe('isYearBissextile test', function () {  
+
+	let msg='Year divisible per 400 is a Leap Year'
 	it(msg, function() {	
-		chai.assert.typeOf(isX_HigherThan2, 'boolean', msg);
+		chai.assert.equal.isTrue(isYearBissextile(400), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(2000), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(2400), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(1600), msg); 
 	});
 	
-	msg='X is Higher Than 2. Expected true';
+	msg='Year divisible per 100 is NOT a Leap Year Unless divisible per 400'
 	it(msg, function() {	
-		chai.assert.isTrue(isX_HigherThan2,  msg);
+		chai.assert.equal.isNotTrue(isYearBissextile(100), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(200), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(300), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(400), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(500), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(600), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(700), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(800), msg); 
 	});
 	
-	msg='isX_Between_5Inclusive_And_10Inclusive should be a boolean'
+	msg='Year divisible per 4 is a Leap Year Unless divisible per 100'
 	it(msg, function() {	
-		chai.assert.typeOf(isX_Between_5Inclusive_And_10Inclusive, 'boolean', msg);
+		chai.assert.equal.isNotTrue(isYearBissextile(3), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(1995), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(1996), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(1900), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(1800), msg); //divisible for 4 but also for 100 and NOT for 400
+		chai.assert.equal.isNotTrue(isYearBissextile(1700), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(5), msg); 
+		chai.assert.equal.isNotTrue(isYearBissextile(9), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(4), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(2004), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(2012), msg); 
+		chai.assert.equal.isTrue(isYearBissextile(2024), msg); 
 	});
+				  
+});	
+
+
+describe('isOddNumber test', function () {  
+
 	
-	msg='isXNegativeNumber should be a boolean'
-	it(msg, function() {	
-		chai.assert.typeOf(isXNegativeNumber, 'boolean', msg); 
-	});
+	it('isOddNumber test', function() {	
+		chai.assert.equal.isNotTrue(isOddNumber(4),'4 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(12),'12 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(2000),'2000 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(-4),'-4 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(14),'14 is not odd number'); 
 		
-	msg='isXDivisibleWith2 should be a boolean'
-	it(msg, function() {	
-		chai.assert.typeOf(isXDivisibleWith2, 'boolean', msg); 
+		chai.assert.equal.isTrue(isOddNumber(5),'5 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(13),'13 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(2001),'2001 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(-141),'-141 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(1),'1 is an odd number'); 
 	});
-	
-	msg='isXNotEqualTo10 should be a boolean'
-	it(msg, function() {	
-		chai.assert.typeOf(isXNotEqualTo10, 'boolean', msg); 
-	});
-	
-	
-	msg='X is in [5,10] interval. expected true'
-	it(msg, function() {	
-		chai.assert.isTrue(isX_Between_5Inclusive_And_10Inclusive, msg); 
-	});
-		
-	msg='X is positive number. expected false';
-	it(msg, function() {	
-		chai.assert.isFalse(isXNegativeNumber, msg); 
-	});
-	
-	
-	msg='X is even number. expected true';
-	it(msg, function() {	
-		chai.assert.isTrue(isXDivisibleWith2, msg); 
-	});
-	
-	msg=' X is NOT equal to 10. expected false';
-	it(msg, function() {	
-		chai.assert.isFalse(isXNotEqualTo10, msg); 
-	});
-	
+
+
+
 });
