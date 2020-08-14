@@ -20,12 +20,12 @@
 
 /**
 return 
- -1:	 if x is higher
-  1:	 if y is higher
+ -1:	 if x is lower
+  1:	 if y is lower
   0: 	 if x=y
 
 */
-function compare(x,y){
+function compareForLower(x,y){
 
 }
 
@@ -42,13 +42,7 @@ function isYearBissextile(year){
 
 }
 
-/**
-Consider national holidays and weekends.
-Hint choose a fixed starting point
-*/
-function isWorkingDayInEstonia(day, month,year){
 
-}
 
 function isOddNumber(aNumber){
 
@@ -73,7 +67,17 @@ function isInInterval(x,lowerBound,upperBound){
 };
 
 
-// implement those functions returning a number
+// starting from Monday =1, Tuesday=2 , etc.
+
+function dayOfWeek(dayOfWeekAsNumber){
+	var dayOfWeekAsString;
+	//... your code here. Assign proper value to dayOfWeekAsString
+	return dayOfWeekAsString;
+};
+
+
+// implement those functions returning a number:
+
 function testSum(add1, add2){
 	var result;	
 	return result;
@@ -105,12 +109,7 @@ function calculateTax(yearGrossSalary){
 
 // implement those functions returning a String
 
-// starting from Monday =1
-function dayOfWeek(dayOfWeekAsNumber){
-	var dayOfWeekAsString;
-	//... your code here. Assign proper value to dayOfWeekAsString
-	return dayOfWeekAsString;
-};
+
 
 
 </script>

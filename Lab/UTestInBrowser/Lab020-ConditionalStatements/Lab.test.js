@@ -2,19 +2,19 @@
 
 describe('compare test', function () {  
 
-	let msg='compare 1 with 1 should return 0'
+	let msg='compareForLower 1 with 1 should return 0'
 	it(msg, function() {	
-		chai.assert.equal(compare(1,1), 0, msg); 
+		chai.assert.equal(compareForLower(1,1), 0, msg); 
 	});
 	
-	msg='compare -10 with 1 should return -1'
+	msg='compareForLower -10 with 1 should return -1'
 	it(msg, function() {	
-		chai.assert.equal(compare(-10,1), -1, msg); 
+		chai.assert.equal(compareForLower(-10,1), -1, msg); 
 	});
 	
-	msg='compare 10 with 1 should return 1'
+	msg='compareForLower 10 with 1 should return 1'
 	it(msg, function() {	
-		chai.assert.equal(compare(10,1), 1, msg); 
+		chai.assert.equal(compareForLower(10,1), 1, msg); 
 	});
 				  
 });	
