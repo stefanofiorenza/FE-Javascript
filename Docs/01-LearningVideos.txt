@@ -1,18 +1,22 @@
 VIDEO COURSES:
 
 
-Introduction to Web Technologies (Frontend)
-https://www.youtube.com/watch?v=Np3k4D1MwBM&t=447s
+	Introduction to Web Technologies (Frontend)
+		https://www.youtube.com/watch?v=Np3k4D1MwBM&t=447s
+		
+		Learning Road Map
+		https://www.youtube.com/watch?v=iogabydg2y0
 			
+		
 			
-			
-YARN:
-https://www.youtube.com/watch?v=g9_6KmiBISk
-	https://gist.github.com/bradtraversy/9bdab9c9a0bf94e2c6952d3f89e9e350
+	YARN:
+		https://www.youtube.com/watch?v=g9_6KmiBISk
+		https://gist.github.com/bradtraversy/9bdab9c9a0bf94e2c6952d3f89e9e350
 
-Intro to Yarn Package Manager
-https://www.youtube.com/watch?v=7n467QmiANM
+		Intro to Yarn Package Manager
+		https://www.youtube.com/watch?v=7n467QmiANM
 
-
-Grunt, Gulp, Npm, Webpack and when to use what
-https://www.youtube.com/watch?v=Mn6aj4kY-j8
+	TASK RUNNER:
+	
+		Grunt, Gulp, Npm, Webpack and when to use what
+		https://www.youtube.com/watch?v=Mn6aj4kY-j8
