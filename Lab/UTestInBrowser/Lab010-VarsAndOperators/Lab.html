@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+</head>
+<body>
+<div id="mocha"></div>
+
+<script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+<script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+
+<script>mocha.setup('bdd')</script>
+
+<script type="text/javascript">
+
+// change the code to pass the tests...
+
+	// Test (1) variable type and assignments
+	var myFirstVariable ="my first tutorial in javascript" //3; //"my first tutorial in javascript";
+	var myFirstVariableAsInteger = "5";
+	var myFirstVariableAsDouble = "5.4";
+	var myFirstVariableAsBoolean = "true";
+
+	var add1 = "5";
+	var add2 = "7";
+	var sum = add1+add2; //expected to be 12
+
+	var dividend = "10";
+	var divisor;
+	var quotient = dividend/divisor; //expected to be 5
+
+	// Test (2) Fix Comparison Opertors (all assignments should be boolean vars) express rule with operators
+	var X=8;
+	var isX_HigherThan2 = "this is not a boolean"; //expected true
+	var isX_Between_5Inclusive_And_10Inclusive = "this is not a boolean"; //expected true
+	var isXNegativeNumber = "this is not a boolean"; //expected false
+	var isXDivisibleWith2 = "this is not a boolean"; //expected true
+	var isXNotEqualTo10 = "this is not a boolean"; //expected true
+
+</script>
+
+<script src="Lab.test.js"></script>
+<script>
+    mocha.checkLeaks();
+    mocha.run();
+</script>
+</body>
+</html>

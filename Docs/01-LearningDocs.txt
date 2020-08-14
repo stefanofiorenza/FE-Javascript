@@ -4,19 +4,39 @@
 
 Guides:
 
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
-https://exploringjs.com/impatient-js/toc.html
 
+Web Technologies:
+
+	Concise:
+		https://www.w3schools.com/whatis/default.asp
+
+	Complete:
+		https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+
+Basic:
+
+	Beginner Level
+	Easy
+	https://www.w3schools.com/js/default.asp
+	
+	Intermediate
+	https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+	Book:
+	https://exploringjs.com/impatient-js/toc.html
+
+
+Specific topic:
 
 Destructuring Operators
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Syntax
-https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Syntax
+	https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
 
 
 Spread Operators:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
-https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+	https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun
 
 FETCH API:
-https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e
-https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+	https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e
+	https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data

@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+</head>
+<body>
+<div id="mocha"></div>
+
+<script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+<script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+
+<script>mocha.setup('bdd')</script>
+
+<script type="text/javascript">
+
+// implement those boolean functions
+
+
+
+/**
+return 
+ -1:	 if x is higher
+  1:	 if y is higher
+  0: 	 if x=y
+
+*/
+function compare(x,y){
+
+}
+
+
+/**
+See Gregorian Calendar Leap Year>
+https://www.timeanddate.com/calendar/gregorian-calendar.html
+*/
+function isYearBissextile(year){
+
+}
+
+/**
+Consider national holidays and weekends.
+Hint choose a fixed starting point
+*/
+function isWorkingDayInEstonia(day, month,year){
+
+}
+
+function isOddNumber(aNumber){
+
+};
+
+function isMultipleOf3(aNumber){
+
+};
+
+
+function isXmultipleOfY(x,y){
+
+};
+
+
+function willBuy(unitPrice,quantity,budget){
+
+};
+
+function isInInterval(x,lowerBound,upperBound){
+
+};
+
+
+// implement those functions returning a number
+function testSum(add1, add2){
+	var result;	
+	return result;
+};
+
+function higherNumberInserted(n1, n2, n3){
+	var result;	
+		//... your code here
+	return result;
+};
+
+
+/**
+	Calculate tax with following rules:
+	
+	1) Until 6000 no tax are payed
+	2) Amount between 6000 and 12000 has taxation of 12%
+	3) Amount between 6000 and 12000 has taxation of 12%
+	4) Amount between 12000 and 22000 has taxation of 17%
+	4) Amount over 22000  has taxation of 23%
+	
+*/
+function calculateTax(yearGrossSalary){
+	var result;	
+		//... your code here
+	return result;
+};
+
+
+// implement those functions returning a String
+
+// starting from Monday =1
+function dayOfWeek(dayOfWeekAsNumber){
+	var dayOfWeekAsString;
+	//... your code here. Assign proper value to dayOfWeekAsString
+	return dayOfWeekAsString;
+};
+
+
+</script>
+
+<script src="Lab.test.js"></script>
+<script>
+    mocha.checkLeaks();
+    mocha.run();
+</script>
+</body>
+</html>
