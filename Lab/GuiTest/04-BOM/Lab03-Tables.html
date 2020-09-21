@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<title>Lab03 Tables</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<!-- Bootstrap -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/bootstrap-responsive.min.css" rel="stylesheet" />
+			
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="assets/glyphicons/glyphicons.css" />
+		
+	<!-- resources/theme -->
+	<link rel="stylesheet" href="assets/style.min.css" />
+	
+	<script src="Lab03-Shipments.js"></script>	
+	<script src="Lab03-Tables.js"></script>	
+	
+</head>
+<body>
+	
+	<!-- Start Content -->
+	<div class="container-fluid fixed">
+		
+					
+<div style="width:960px" >
+		<ul class="breadcrumb">
+			<li><a href="index.html?lang=en" class="glyphicons home"><i></i> JS Course</a></li>
+			<li class="divider"></li>
+			<li>BOM</li>
+			<li class="divider"></li>
+			<li>Tables</li>
+		</ul>
+<div class="separator"></div>
+
+<div class="innerLR">
+
+	<div class="widget widget-4">
+		<div class="widget-head">
+			<h3 class="heading">Tables</h3>
+		</div>
+		<div class="widget-body">
+			<p>Replace static data in the table with those (in json format) from linked script.</br>
+			Load 10 records per page.
+			Implement paginations with buttons
+			</p>
+			<hr class="separator bottom">
+			
+			<div class="widget-body" style="padding: 10px;">
+				<div class="row-fluid">
+			
+				<div class="span12">					
+					<table class="table table-bordered table-condensed table-striped table-primary table-vertical-center checkboxs">
+					<thead>
+						<tr>
+							<th class="center">Order No</th>
+							<th class="center">Date</th>
+							<th>Customer</th>
+							<th class="center">Tracking No</th>
+							<th class="center">Status</th>
+							<th class="center">Consignee</th>
+							<th class="center" style="width: 90px;">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="selectable">
+							<td class="center">OS5434342342334</td>
+							<td class="center">01/04/2015</td>
+							<td class="center">A Shipper Name</td>								
+							<td class="center">TP-3242423423</td>
+							<td class="center">Delivered</td>
+							<td class="center">A Recipient Name</td>
+							<td class="center">
+								<a href="#" class="btn-action glyphicons eye_open btn-info"><i></i></a>
+								<a href="#" class="btn-action glyphicons pencil btn-success"><i></i></a>
+								<a href="#" class="btn-action glyphicons remove_2 btn-danger"><i></i></a>
+							</td>
+						</tr>
+						<tr class="selectable selected">
+							<td class="center">OS5434342342334</td>
+							<td class="center">01/04/2015</td>							
+							<td class="center">A Shipper Name2</td>
+							<td class="center">TP-3242423423</td>
+							<td class="center">Delivered</td>
+							<td class="center">A Recipient Name2</td>
+							<td class="center">
+								<a href="#" class="btn-action glyphicons eye_open btn-info"><i></i></a>
+								<a href="#" class="btn-action glyphicons pencil btn-success"><i></i></a>
+								<a href="#" class="btn-action glyphicons remove_2 btn-danger"><i></i></a>
+							</td>
+						</tr>
+						<tr class="selectable">
+							<td class="center">OS5434342342334</td>
+							<td class="center">01/04/2015</td>						
+							<td class="center">A Shipper Name</td>
+							<td class="center">TP-3242423423</td>
+							<td class="center">Delivered</td>
+							<td class="center">A Recipient Name</td>
+							<td class="center">
+								<a href="#" class="btn-action glyphicons eye_open btn-info"><i></i></a>
+								<a href="#" class="btn-action glyphicons pencil btn-success"><i></i></a>
+								<a href="#" class="btn-action glyphicons remove_2 btn-danger"><i></i></a>
+							</td>
+						</tr>
+						<tr class="selectable">
+							<td class="center">OS5434342342334</td>
+							<td class="center">01/04/2015</td>						
+							<td class="center">A Shipper Name</td>
+							<td class="center">TP-3242423423</td>
+							<td class="center">Delivered</td>
+							<td class="center">A Recipient Name</td>
+							<td class="center">
+								<a href="#" class="btn-action glyphicons eye_open btn-info"><i></i></a>
+								<a href="#" class="btn-action glyphicons pencil btn-success"><i></i></a>
+								<a href="#" class="btn-action glyphicons remove_2 btn-danger"><i></i></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<div class="widget-body pull-right" style="padding: 10px 0;">	
+					<button class="btn dropdown-lead btn-default">First</button>
+					<button class="btn dropdown-lead btn-default">Previous</button>
+					<button class="btn dropdown-lead btn-default">Next</button>
+					<button class="btn dropdown-lead btn-default">Last</button>
+				</div>	
+					
+				</div>				
+				</div>	<!-- Row fluid -->
+				
+				
+			</div>
+		</div>
+	</div>	
+
+	</div>
+			
+	</div>
+</div> <!-- end Content -->
+	
+</div>		
+	
+	
+</body>
+</html>

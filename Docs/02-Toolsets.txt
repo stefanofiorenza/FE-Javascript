@@ -2,3 +2,8 @@
 
 JS Engine Debugger con Context
 https://tylermcginnis.com/javascript-visualizer
+
+
+
+Image Maps
+https://www.image-map.net/

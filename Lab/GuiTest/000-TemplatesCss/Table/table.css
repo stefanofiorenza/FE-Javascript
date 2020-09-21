@@ -1,0 +1,45 @@
+/* CSS Document */
+
+
+.table{
+	FONT-SIZE: 8pt; 
+ 	BORDER-COLLAPSE: collapse; 
+ 	border:1px solid black; 
+ 	width:880px;
+}
+
+
+.headers {
+	PADDING-LEFT: 5px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px;
+	COLOR: #ffffff; 
+	LINE-HEIGHT: 12pt; 
+	FONT-FAMILY: Verdana, Arial; 
+	background-color:#CCCCCC;
+	TEXT-ALIGN: center;
+}
+
+
+.row{
+	width:880px;
+	PADDING-LEFT: 5px; 
+	FONT-SIZE: 11px;
+	BORDER:1px solid black; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana, Arial; 
+	BACKGROUND-COLOR: #ffffff;
+
+}
+
+
+.footer{
+	PADDING-LEFT: 5px;
+	border:1px solid black;  
+	LINE-HEIGHT: 10pt;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;  
+	COLOR: #ffffff;  
+	background-color:#CCCCCC;
+	
+}
