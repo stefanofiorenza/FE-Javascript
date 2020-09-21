@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+
+const mockDataUrl="https://my.api.mockaroo.com/shipments.json?key=5e0b62d0";
+//const echoPostUrl="https://postman-echo.com/post";
+const wrongKeyMockDataUrl="https://my.api.mockaroo.com/shipments.json?key=5e0b62d0_thispartdoesntmatch";;
+
+const echoPostUrl="http://localhost:7000/users";
+
+
+var data = {firstName: "Stefano", lastName:"Fiorenza"};
+var body = JSON.stringify(data);
+
+const sendGetRequest =(url, process, reject) =>{
+    var xhr = new XMLHttpRequest(); //emulates browser XMLHttpRequest object
+  
+
+    xhr.onreadystatechange = () =>{
+    
+        if (xhr.readyState == 4 && xhr.status >= 200 && xhr.status <300) {
+            process(xhr);
+        }else if (xhr.status >300){ //error
+            reject(xhr);
+        }else{
+            console.log("State: "+xhr.readyState+" Status: "+xhr.status+ "Time: "+new Date().getMilliseconds());
+        }
+    };
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.setRequestHeader("Accept", "application/json");
+
+    xhr.send(body);
+
+};
+
+const handleSuccessResponse =(httpReq)=>{
+    console.log(httpReq.responseText);
+}
+const handleExceptionResponse =(httpReq)=>{
+    console.log("Status: "+httpReq.status +" Details: "+ httpReq.responseText);
+}
+
+sendGetRequest(echoPostUrl, handleSuccessResponse,handleExceptionResponse);   
+//sendGetRequest(wrongKeyMockDataUrl, handleSuccessResponse,handleExceptionResponse);   
+
+
+
+</script>
+</head>
+<body>
+
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+
+
+</body>
+</html>
