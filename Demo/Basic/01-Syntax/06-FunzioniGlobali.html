@@ -1,0 +1,34 @@
+
+<html>
+
+<head>
+</head>
+
+
+<body >
+<script language=javascript>
+
+//check tipo numerico
+var numero =5;
+var stringa="una stringa";
+alert("var numero non e' un numerica? "+isNaN(numero));
+alert("var stringa non e' un numerica? "+isNaN(stringa));
+
+
+//parsing di stringhe;
+var num= parseInt("12");
+num=num+8;
+alert(num);
+var numF= parseFloat("12.3");
+numF=numF+7.6;
+alert(numF);
+
+
+// EVAL
+var stringaIstruzioniJavascript="var x=7; x=x+3;";
+eval (stringaIstruzioniJavascript);
+alert("variabile creata da eval "+x);
+
+</script>
+</body>
+</html>

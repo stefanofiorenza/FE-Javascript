@@ -1,0 +1,23 @@
+
+<html>
+
+<head>
+</head>
+
+
+<body >
+<script language=javascript>
+
+var test1=testGlobalFunction()
+alert("contesto this==window? "+test1);
+
+var test2 = new testGlobalFunction();
+alert("contesto this==window? "+test2);
+
+function testGlobalFunction(){
+	return (window==this)
+}
+
+</script>
+</body>
+</html>

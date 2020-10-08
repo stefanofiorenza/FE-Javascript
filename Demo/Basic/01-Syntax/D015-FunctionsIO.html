@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Js Basic Course Demo</title>
+    </head>
+    
+<body>
+
+<script type="text/javascript">
+
+function add7ToInput(input){
+    var parseIntoNumber= parseInt(input);
+    parseIntoNumber=parseIntoNumber+7;
+    return parseIntoNumber;
+}     
+
+
+//1) read from confirm win
+var inputFromWin = prompt("Please insert number");
+
+//2) execute some logic
+var inputAsNumber= add7ToInput(inputFromWin);
+
+//3) Write output to alert win
+alert(" converted into number and added 7 "+ inputAsNumber);
+
+</script>
+
+
+</body>
+</html>
+

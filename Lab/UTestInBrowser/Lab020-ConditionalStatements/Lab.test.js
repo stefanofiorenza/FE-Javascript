@@ -63,7 +63,6 @@ describe('isYearBissextile test', function () {
 
 describe('isOddNumber test', function () {  
 
-	
 	it('isOddNumber test', function() {	
 		chai.assert.equal.isNotTrue(isOddNumber(4),'4 is not odd number'); 
 		chai.assert.equal.isNotTrue(isOddNumber(12),'12 is not odd number'); 
@@ -81,3 +80,41 @@ describe('isOddNumber test', function () {
 
 
 });
+
+
+describe('willBuy test', function () {  
+
+	
+	it('willBuy test', function() {	
+		chai.assert.equal.isNotTrue(willBuy(4),'4 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(12),'12 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(2000),'2000 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(-4),'-4 is not odd number'); 
+		chai.assert.equal.isNotTrue(isOddNumber(14),'14 is not odd number'); 
+		
+		chai.assert.equal.isTrue(isOddNumber(5),'5 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(13),'13 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(2001),'2001 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(-141),'-141 is an odd number'); 
+		chai.assert.equal.isTrue(isOddNumber(1),'1 is an odd number'); 
+	});
+
+
+
+});
+
+function willBuy(unitPrice,quantity,budget){
+
+};
+
+function isInInterval(x,lowerBound,upperBound){
+
+};
+
+
+
+function dayOfWeek(dayOfWeekAsNumber){
+	var dayOfWeekAsString;
+	//... your code here. Assign proper value to dayOfWeekAsString
+	return dayOfWeekAsString;
+};

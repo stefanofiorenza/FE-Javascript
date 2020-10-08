@@ -1,0 +1,77 @@
+<html>
+	<head>
+        <title>Js Basic Course Demo</title>
+	</head>
+	
+<body>
+<script type="text/javascript">
+
+  // Common start IO
+  var inputFromWin = prompt("Please insert number between 1 and 10");
+  var inputAsNumber =parseInt(inputFromWin);
+  alert("Inserted : "+inputAsNumber);
+
+
+//1) version 1: No break; -> Error
+/*
+  switch (inputAsNumber){
+
+	case 1: alert("Prime number");
+	case 2: alert("Prime number");
+	case 3: alert("Prime number");
+	case 4: alert(inputAsNumber);
+	case 5: alert("Prime number");
+	case 6: alert(inputAsNumber);
+	case 7: alert("Prime number");
+	case 8: alert(inputAsNumber);
+	case 9: alert(inputAsNumber);
+	case 10: alert(inputAsNumber);	
+	default: alert("Illegal value");
+  }
+*/
+
+//2) version 2:  break; Every line-> It works but a lot of code repetition (Mantainance)
+/*
+  switch (inputAsNumber){
+
+	case 1: alert("Prime number");break;
+	case 2: alert("Prime number");break;
+	case 3: alert("Prime number");break;
+	case 4: alert(inputAsNumber);break;
+	case 5: alert("Prime number");break;
+	case 6: alert(inputAsNumber);break;
+	case 7: alert("Prime number");break;
+	case 8: alert(inputAsNumber);break;
+	case 9: alert(inputAsNumber);break;
+	case 10: alert(inputAsNumber);	break;
+	default: alert("Illegal value");
+  }
+*/
+
+//3) version 3:  break; Group line by outcome -> This is how should be used
+/*
+  switch (inputAsNumber){
+
+	case 1: 
+	case 2: 
+	case 3: 	
+	case 5: 
+	case 7: alert("Prime number");break;
+
+	case 4: 
+	case 6: 	
+	case 8: 
+	case 9: 
+	case 10: alert(inputAsNumber);	break;
+
+	default: alert("Illegal value");
+  }
+*/
+
+</script>
+
+
+</body>
+</html>
+
+
