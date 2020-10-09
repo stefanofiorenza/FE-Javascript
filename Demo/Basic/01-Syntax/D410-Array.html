@@ -3,25 +3,106 @@
 
 <script type="text/javascript">
 
-var famname = new Array(6)
-famname[0] = "Jan Egil"
-famname[1] = "Tove"
-famname[2] = "Hege"
-famname[3] = "Stale"
-famname[4] = "Kai Jim"
-famname[5] = "Borge"
-famname[7]="Stefano"
+//1) Declare, Create, Fill with data
 
-for (i=0; i<famname.length; i++)
-{
+/*
+    //declare var and construct Array (new keyword)
+    var famname =[]
 
-document.write(famname[i]);
-document.write("&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"+ i);
-document.write("<br>");
-}
+    // write values into array
+    famname[0] = "Jan Egil"
+    famname[1] = "Tove"
+    famname[2] = "Hege"
+    famname[3] = "Stale"
+    famname[4] = "Kai Jim"
+    famname[5] = "Borge"
+
+    //Read values:
+    //alert (famname[0]); //expected Jan Egil
+
+    //Read Array Length:
+    //alert (famname.length); //expected 6
+
+    //all indexes not assigned are by default undefined
+    //alert (famname[6]);
+
+    //Is possible to write in whatever index. Array will be resized accordingly,
+    famname[7]="Stefano"
+    alert (famname.length); //expected 8
+
+    for (i=0; i<famname.length; i++){
+        document.write("["+i+"]:  "+ famname[i]);
+        document.write("<br>");
+    }
+*/
+
+//2) Multidimensional Array:
+
+/*
+    var matrix = [[],[],[]]; //array of array. 
+
+    matrix[0][0]=2;
+    matrix[0][1]=4;
+    matrix[0][2]=6;
+    matrix[0][3]=8;
+    matrix[0][4]=10;
+    matrix[0][5]=12;
+    matrix[0][6]=14;
+    matrix[0][7]=16;
+    matrix[0][8]=18;
+    matrix[0][9]=20;
+
+    matrix[1][0]=3;
+    matrix[1][1]=6;
+    matrix[1][2]=9;
+    matrix[1][3]=12;
+    matrix[1][4]=15;
+    matrix[1][5]=18;
+    matrix[1][6]=21;
+    matrix[1][7]=24;
+    matrix[1][8]=27;
+    matrix[1][9]=30;
+
+    matrix[2][0]=4;
+    matrix[2][1]=8;
+    matrix[2][2]=12;
+    matrix[2][3]=16;
+    matrix[2][4]=20;
+    matrix[2][5]=24;
+    matrix[2][6]=28;
+    matrix[2][7]=32;
+    matrix[2][8]=36;
+    matrix[2][9]=40;
+
+    alert( matrix[2][6]);
+    alert( matrix.length); //expected 3
+
+    alert("I will now print the whole matrix"); //expected 3""
+    for (i=0; i<matrix.length; i++){
+        for (j=0; j<matrix[i].length; j++){
+            document.write("["+i+"]["+j+"]:"+matrix[i][j]);
+            document.write("<br>");
+        }       
+    }
+*/
+
+//3) Associative Array in Js seems to be possible because of syntax arrayVar[key], but it is indeed an Object. 
+//   Its behavior is unexpected as array, and this is why it should be avoided
+
+/*
+    var associativeArray =[];
+    associativeArray['A']=5;
+    associativeArray['B']=15;
+    associativeArray['C']=25;
+
+    alert (associativeArray['B']); //if we access by key it is working...
+
+    //..but as array its behavior is unexpected:
+    alert (associativeArray.length); //expected 3 but actually is zero
+    alert (associativeArray[0]); //first element is actually undefined
+*/
 
 
-document.write("la lunghezza dell'array e' "+ famname.length);
 </script>
 
 </body>

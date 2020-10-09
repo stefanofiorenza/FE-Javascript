@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Js Basic Course Demo</title>
+    </head>
+
+<body>
+
+<script type="text/javascript">
+
+//1) for-of 
+//Iterate over iterable (Arrays, Strings, Maps, NodeLists)
+/*
+    var cars = ['BMW', 'Volvo', 'Mini'];
+    var x;
+
+    for (x of cars) {
+        document.write(x + "<br >");
+    }
+*/
+
+
+//2) for-in 
+//loops through the enumerable properties of an object.
+//is possible to get values with syntax Object[fieldname]
+
+    var person ={'name': 'Stefano', 'lastName':'Fiorenza'}
+    var fieldname;
+
+    for (fieldname in person) {
+        document.write(fieldname + ": "+person[fieldname] +" <br >");
+    }
+
+
+
+</script>
+
+</body>
+</html>
+
