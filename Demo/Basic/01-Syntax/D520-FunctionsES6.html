@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+// Standard way to define function until ES5 :
+/*
+function identity (n) { 
+    return n;
+}
+*/
+
+/********************* ES6 ******************************************/
+
+//1) var, let, const <functionName> = function ...
+  /*
+  let identity =function (n) { 
+    return n;
+  }
+*/
+
+//2) var, let, const <functionName> =(n) => n
+/*
+let identity = (n) => n;
+*/
+
+
+
+
+/** Note:
+ * Function statements are loaded before any of the code is executed. 
+ * You can even invoke the function before defining it as a function statement.
+ * 
+ * Functions as variables apply variable rules.
+ * 
+ */
+
+
+console.log("invocation Yeld result: "+identity(5)); 
+console.log("typeof: "+(typeof identity));
+console.log("function name: "+identity.name);
+
+
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

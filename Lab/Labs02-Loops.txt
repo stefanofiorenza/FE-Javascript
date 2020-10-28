@@ -1,0 +1,26 @@
+Loops:
+	Topics:
+	- Loops, for, while, break, continue		
+
+Labs:
+
+
+	1) All Numbers?
+		I: number (max 50)
+		O: echo all numbers until $number (exit 1 and echo for input exceptions)
+	
+	2) All ODD Numbers?	
+		I: number (max 50)
+		O: echo all ODD numbers until $number (exit 1 and echo for input exceptions)
+		
+	3) All file names in current directory:
+	
+	
+	4) Count files in current directory:
+	
+	
+	5) Insert N numbers (according to bash arg)
+		Print:
+		max, min, sum, average.
+		
+	

@@ -18,17 +18,17 @@
     famname[5] = "Borge"
 
     //Read values:
-    //alert (famname[0]); //expected Jan Egil
+    //console.log (famname[0]); //expected Jan Egil
 
     //Read Array Length:
-    //alert (famname.length); //expected 6
+    //console.log (famname.length); //expected 6
 
     //all indexes not assigned are by default undefined
-    //alert (famname[6]);
+    //console.log (famname[6]);
 
     //Is possible to write in whatever index. Array will be resized accordingly,
     famname[7]="Stefano"
-    alert (famname.length); //expected 8
+    console.log (famname.length); //expected 8
 
     for (i=0; i<famname.length; i++){
         document.write("["+i+"]:  "+ famname[i]);
@@ -74,10 +74,11 @@
     matrix[2][8]=36;
     matrix[2][9]=40;
 
-    alert( matrix[2][6]);
-    alert( matrix.length); //expected 3
+    console.log( matrix[2][6]);
+    console.log( matrix.length); //expected 3
 
-    alert("I will now print the whole matrix"); //expected 3""
+    console.log("I will now print the whole matrix"); 
+
     for (i=0; i<matrix.length; i++){
         for (j=0; j<matrix[i].length; j++){
             document.write("["+i+"]["+j+"]:"+matrix[i][j]);
@@ -95,13 +96,14 @@
     associativeArray['B']=15;
     associativeArray['C']=25;
 
-    alert (associativeArray['B']); //if we access by key it is working...
+    console.log (associativeArray['B']); //if we access by key it is working...
 
     //..but as array its behavior is unexpected:
-    alert (associativeArray.length); //expected 3 but actually is zero
-    alert (associativeArray[0]); //first element is actually undefined
+    console.log (associativeArray.length); //expected 3 but actually is zero
+    console.log (associativeArray[0]); //first element is actually undefined
 */
 
+  
 
 </script>
 

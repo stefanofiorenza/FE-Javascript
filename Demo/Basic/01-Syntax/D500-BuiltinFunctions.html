@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<script type="text/javascript">
+    /**
+        Global functions: (Js builtins)
+        See https://www.w3schools.com/jsref/jsref_obj_global.asp
+
+    */
+    var aString=""
+    var aNumberAsString="4"
+
+    //1) isNan
+    document.write ("Is not a Number: " +isNaN(aString)+" <br/>");
+
+     //2) parseInt
+    document.write ("String parsed into a Number: " +parseInt(aNumberAsString)+" <br/>");
+
+    //3) eval
+    // potentially dangerous funtion. Takes a String as input , send it to the js engine and runs it
+    // same as writing that string into <script type="text/javascript"> .. snippet
+    eval ("var x=5; alert(x);");
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

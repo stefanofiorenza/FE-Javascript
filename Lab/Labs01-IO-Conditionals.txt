@@ -1,0 +1,59 @@
+See format in HackerRank
+
+IO:
+	Topics:
+	- Bash input/output
+		read, cat, echo, bash args
+	- Exit code
+	- Arithmetics
+	- String manipulation
+
+Labs:
+
+	I/O and Math:
+	
+		1) Geometry:
+			- Perimeters  (Rectangle, triangle, Circle, Square, Pentagon)
+			- Area  (Rectangle, triangle, Circle, Square, Pentagon)
+
+		2) Arithmetic Operations
+			Input: 	math expression 
+					(expression containing +,-,*,^, /).
+			Output:	result with 3 decimal
+
+		3) Input and Exit status:
+			3.1) 
+				I: bashfile Arg
+					bashFile input ('rectangle' || 'square', others='')
+				O:
+					ask relevant inputs and echo area. (exit 0 || exit 1 if not supported)
+			
+			
+			3.2) Arithmetic Operations with bashfile arg
+				I:	 bashFile arg
+				O:	 result with 3 decimal 
+		4) 
+		
+		
+	
+CONDITIONAL IF:
+
+	read/echo
+
+	1) Odd Number?
+		I: number
+		O: echo "ODD" "EVEN"
+	
+	2) Login (user,pw hardcoded)
+		I: user, pw
+		O: hello <user> || access denied 
+	
+	3) File type:
+		I: path
+		O: dir || file, 
+	
+	4) Number inside/outside boundaries 
+		I: number
+		O: (inside (1-10) || outside interval)
+		
+	bash args /exit status  (exceptions)

@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<script type="text/javascript">
+   
+    function someFunction(someInput) { 
+        console.log(someInput); //supposed to change app state
+    } 
+
+    function functionWithReturn(someInput) { 
+        return someInput+1; 
+    } 
+
+    function functionArgs(x,y) { 
+        return "Parameters defined are the minimum required. Passed:  x: "+x+" , y: "+y;
+    } 
+
+    function functionArgumentsDemo(x,y) { 
+
+        var paramValues ="";
+        for (arg of arguments){      
+            paramValues +=arg+",";
+        }
+        paramValues =paramValues.slice(0,paramValues.length-1); // remove last char
+        return "Parameters passed (all) with arguments keyword:  "+paramValues;
+    } 
+
+    function addSevenToPrimitive(x){
+        var x=x+7;	
+    }
+
+    function addSevenTo1stElemInArray(arrInput){
+        arrInput[0]=arrInput[0]+7;	
+    }
+
+
+    //1) function call
+    someFunction("Test String input");
+
+    //2) function call with args and result:
+    var res = functionWithReturn(5);
+    console.log("Result of functionWithReturn : "+res+ " for input : 5")
+
+    //3) It is possible to pass more parameters than args in definition .. 
+    console.log(functionArgs(1,2,3)); //3 is lost
+
+    //4) It is possible to get all args from function with keyword arguments (collection)
+    console.log(functionArgumentsDemo(1,2,3,4,5,6)); 
+
+    //5) Args passed by value/reference:
+
+    //by value for primitive
+    var y =3;
+    console.log("Before - y: "+y);
+    addSevenToPrimitive(y);
+    console.log("After - y: "+y); //y unchanged. 
+
+    //by reference for objects
+    var arr=[1,2,3,4];
+    console.log("Before - arr: "+arr);
+    addSevenTo1stElemInArray(arr);
+    console.log("After - arr: "+arr); //arr[0] was adding 7. 
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

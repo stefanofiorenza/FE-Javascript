@@ -1,0 +1,51 @@
+Loops:
+	Topics:
+	- Arrays and loops
+	
+Labs:
+
+
+	EASY:
+	
+		1) Create (by code) an array with all multiple of 5 from 5 to 50.
+		Print array content
+		
+		And then:
+		2) Print all elements in Odd position
+		3) sum all elements in EVEN position
+		4) print reversed array
+		5) print only ODD numbers
+		6) given an additional input as number -> Verify if is in the array
+		
+	
+	Intermediate:
+	
+		GIVEN: array of 10 numbers 
+			
+		1) Statistics
+		O: print Max, min, sum, mean
+		
+		2) remove duplicates:
+		
+		3) given an additional input as number -> Verify if number is in the array
+		
+		4) Print Sorted array:
+		
+		5) Shift elements (Right or Left)
+		
+	Advanced:
+	
+	    GIVEN: 2 arrays A, B of 5 numbers 
+		
+		1) Merge array (all elements from both) removing duplicates:
+		
+		2) Verify if they contain same elements (in whatever position):
+
+		3) Remove from array A all elements in B if present
+		
+		4) 
+	
+	
+
+		
+	
