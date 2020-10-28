@@ -1,0 +1,62 @@
+<html>
+<head>
+<script type="text/javascript" src="D610-Person.js"></script>
+
+<script type="text/javascript">
+
+
+//Objects
+/**
+An Object is a set of connected data 
+*/
+
+
+//1) Anonymous with dynamic props
+/*
+    var person = new Object();
+    person.name="Stefano"; // add property with obJvarname.propName
+    person[surname]="Fiorenza"; // add property with obJvarname[propName]
+/*
+
+//2) Object from Prototype function (from Person.js)
+/*
+    var person = new Person("Stefano","Fiorenza",1974,"mail@server.it");
+    person.method1();
+    person.method2();
+    person.method3('test with method 3');
+    person.method4();
+*/
+
+
+//3) JSON Notation
+/*
+var person = {"name":"Stefano",
+            "surname":"Fiorenza",
+            "yearOfBirth":1974,
+            "email":"mail@server.it"
+        };
+
+*/
+
+// Test calls
+    //alert(person.name+" "+person.surname+" "+person.email);
+
+    inspectProperties(person,"person");
+
+
+function inspectProperties(object, objectName) {
+    var result = "";
+    
+	for (var propName in object) {
+        result += objectName + "." + propName + "=" + object[propName] + "\n";
+    }
+    alert(result);
+}
+
+
+</script>
+
+</head>
+<body>
+</body>
+</html>
