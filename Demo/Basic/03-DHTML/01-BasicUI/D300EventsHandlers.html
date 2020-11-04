@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<title>Event Demo </title>
+</head>
+
+<body>
+
+	<select name="" id="" onchange="change( this, event )">
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+	</select>
+
+	<select name="" id="" onchange="change( event, this )">
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+	</select>
+
+	<select name="" id="" onchange="change( this, e )">
+		<option value="1">A</option>
+		<option value="2">B</option>
+		<option value="3">C</option>
+	</select>
+
+	<script type="text/javascript">
+		function change(){
+			console.info( arguments );
+		}
+	</script>
+	<a href="https://www.tutorialspoint.com/javascript/javascript_events.htm">See more here:</a>
+	
+</body>
+</html>
+
+
+

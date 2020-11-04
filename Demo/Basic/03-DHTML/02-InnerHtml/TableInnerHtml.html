@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>Table innerHTML</title>
+<script>
+
+function tableCreate() {
+  var body = document.getElementsByTagName('body')[0];
+  var tbl = document.createElement('table');
+  tbl.style.width = '100%';
+  tbl.setAttribute('border', '1');
+  var tbdy = document.createElement('tbody');
+  
+  for (var i = 0; i < rowNum.value; i++) {
+    var tr = document.createElement('tr');
+    for (var j = 0; j < 3; j++) {
+
+      var td = document.createElement('td');
+      td.appendChild(document.createTextNode('\u0020'))
+      tr.appendChild(td)
+      if(i==0){ 
+        // ROW 1 ----------
+        if(j==0){td.innerHTML = 'Quantity';}
+        if(j==1){td.innerHTML = 'Price';}
+        if(j==2){td.innerHTML = 'Value';}
+      }
+      else {
+        // ROW 2 onwards ----------
+        if(j==0){td.innerHTML = '<input id ="Q' + i + '" type="text" />';}
+        if(j==1){td.innerHTML = '<input id ="P' + i + '" type="text" onchange="refreshValue(this.id)"/>';}
+        if(j==2){td.innerHTML = '<input id ="V' + i + '" type="text" />';}
+      }
+    }
+    tbdy.appendChild(tr);
+  }
+  tbl.appendChild(tbdy);
+  body.appendChild(tbl)
+}
+
+// This function is called when a value is changed in the textboxes
+// When called, this function takes the id as the argument
+
+function refreshValue(elementID){
+  var str = elementID.substring(1, 2);
+  var elementVal = document.getElementById(elementID).value;
+  var qstr1 = "Q"; var pstr1 = "P"; var vstr1 = "V";
+  var qStr = qstr1.concat(str);
+  var pStr = pstr1.concat(str);
+  var vStr = vstr1.concat(str);
+  var qVal = document.getElementById(qStr).value;
+  var pVal = document.getElementById(pStr).value;
+  var vVal = qVal * pVal;
+  document.getElementById(vStr).value = vVal;
+}
+
+</script>
+</head>
+
+<body>
+  How many Rows: <input id="rowNum" type="text"><br/>
+  <input type="submit" onclick="tableCreate()" value="Create Table" />
+</body>
+</html>
