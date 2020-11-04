@@ -1,0 +1,8 @@
+
+TDD Mocha and Chai
+https://javascript.info/testing-mocha
+
+
+Chai
+https://medium.com/better-programming/testing-in-node-js-using-mocha-and-chai-part-1-d5a9e91f4b06
+https://www.chaijs.com/guide/styles/

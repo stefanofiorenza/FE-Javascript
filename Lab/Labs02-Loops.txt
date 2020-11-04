@@ -5,22 +5,61 @@ Loops:
 Labs:
 
 
-	1) All Numbers?
-		I: number (max 50)
-		O: echo all numbers until $number (exit 1 and echo for input exceptions)
-	
-	2) All ODD Numbers?	
-		I: number (max 50)
-		O: echo all ODD numbers until $number (exit 1 and echo for input exceptions)
+	1) Countdown
+		I: Insert a single number (max 50)
+		O: output all numbers from inserted number to 0 
 		
-	3) All file names in current directory:
-	
-	
-	4) Count files in current directory:
-	
-	
-	5) Insert N numbers (according to bash arg)
-		Print:
-		max, min, sum, average.
+		Optional: Provide an alert for exceptions
+		
+		Example:
+		Input: User insert 18
+		
+		Output: will be
+						18
+						17
+						16
+						...
+						0
 		
 	
+	2) Countdown show only ODD Numbers	
+		I: Same input as (1)
+		O: Output as (1) skipping all EVEN numbers 
+		
+		Example:
+		Input: User insert 18
+		
+		Output: will be
+						17
+						15
+						13
+						...
+						0
+		
+	
+	3) Statistics:
+	
+		I: Ask user N numbers.
+		Output: max, min, sum, average.
+		
+		Example:
+		
+		INPUT:
+			How many numbers you want to insert? -> User enters 5
+			
+			Please insert Number -> User enters 3
+			Please insert Number -> User enters 13
+			Please insert Number -> User enters 32
+			Please insert Number -> User enters 24
+			Please insert Number -> User enters 4
+		
+		OUTPUT:
+			Min: 3
+			Max: 32
+			Sum: 76
+			Avg: 15.2
+			
+	4) Statistics with Array:
+	
+		Same as (3) but also Output should list all the numbers entered.
+		Array should be used.

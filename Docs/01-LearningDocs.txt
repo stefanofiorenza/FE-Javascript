@@ -33,13 +33,17 @@ Destructuring Operators
 	https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
 
 
-Spread Operators:
+	Spread Operators:
 	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 	https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun
 
-High Order functions:
-https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
+	High Order functions:
+	https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
 
+
+	Unit Test:
+	https://javascript.info/testing-mocha
+	
 
 FETCH API:
 https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e

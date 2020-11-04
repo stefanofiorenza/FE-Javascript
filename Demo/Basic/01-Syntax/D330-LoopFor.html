@@ -6,18 +6,42 @@
 <body>
 
 <script type="text/javascript">
+/*
     for (i = 0; i <= 5; i++) {
         document.write("The number is " + i)
         document.write("<br>")
     }
+*/
+
+for (i = 0; i <= 100; i++) {
+
+	if (i == 15){
+		break;
+	}
+	
+	if (i % 2 == 0){
+		continue;
+	}
+	
+        document.write("The number is " + i)
+        document.write("<br>")
+    }
+
+
 </script>
 
-<p>Explanation:<BR>
-
-1) Starting condition: Lop starts with Index  <b>i=0</b><br>
+<h2>Explanation Example One:</h2>
+1) Starting condition: Loop starts with Index  <b>i=0</b><br>
 2) Exit Condition: Until is true  <b>i</b> is lower or equal to 5 code block repeat execution <br>
 3) Step: How Index var is changing at every block execution  <b>i</b> increments by 1 at the end of every block execution
 
+<h2>Explanation Example Two:</h2>
+In this example loop is set to run until <b>i==100</b><br>
+ <b>BUT:</b><br>
+ All even numers <b>(i % 2 ==0)</b> will be skipped because <b>continue </b> keyword will skip following line in block and get back to loop definition
+ <br>
+ Loop will exit earlier: <b>(i == 15)</b> will lead to <b>break </b> keyword that will exit loop.
+ <br> 
 </body>
 </html>
 

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Js Basic Course Demo</title>
+    </head>
+
+    <body>
+
+    <script type="text/javascript">
+
+        /*
+            1) Geometry:
+			- Perimeters  (Rectangle, triangle, Circle, Square, Pentagon)
+			- Area  (Rectangle, triangle, Circle, Square, Pentagon)
+
+        */
+
+        //1) read from confirm win
+        var shape = prompt("Please insert a Shape R-Rectangle or S-Square");
+
+        if(shape!='R' && shape!='S'){
+            alert ("Illegal value provided");
+
+        }else{
+            switch (shape){
+                case 'R':
+                    var width =prompt("Please insert width");
+                    var height =prompt("Please insert height");
+                    var area =width* height;
+                    alert("Area of Rectangle is "+area);
+                    break;
+
+                case 'S':
+                    var edge =prompt("Please insert edge");
+                    var area =edge * edge;
+                    alert("Area of Square is "+area);
+                    break;
+
+                default: 
+                alert("Illegal Selection");
+            }
+        }
+
+  
+</script>
+
+
+</body>
+</html>
+

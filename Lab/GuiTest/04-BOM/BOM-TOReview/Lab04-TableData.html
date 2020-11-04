@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+	<title>Lab04 Table Data</title>
+
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Bootstrap -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/bootstrap-responsive.css" rel="stylesheet" />
+
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="assets/glyphicons/glyphicons.css" />
+
+	<!-- resources/theme -->
+	<link rel="stylesheet" href="assets/style.min.css" />
+
+	<script src="Lab03-Shipments.js"></script>
+	<script src="Lab04-TableData.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Start Content -->
+	<div class="container-fluid fixed">
+
+
+		<div id="content">
+			<ul class="breadcrumb">
+				<li><a href="index.html?lang=en" class="glyphicons home"><i></i> JS Course</a></li>
+				<li class="divider"></li>
+				<li>BOM</li>
+				<li class="divider"></li>
+				<li>Table Data</li>
+			</ul>
+			<div class="separator"></div>
+
+			<div class="innerLR">
+
+				<div class="widget widget-4">
+					<div class="widget-head">
+						<h3 class="heading">Table Data</h3>
+					</div>
+					<div class="widget-body">
+						<p>Load Shipments.js 1 by 1 into following fields</br>
+						</p>
+						<hr class="separator bottom">
+
+						<div class="widget-body" style="padding: 10px;">
+							<div class="row-fluid">
+
+								<div class="span3">
+									<strong>Orders</strong>
+									<p class="muted">Load/Update data</p>
+								</div>
+								<div class="span9">
+
+									<label for="txtName">Order No</label>
+									<input type="text" id="txtOrder" class="span6" value="" />
+									<div class="separator"></div>
+
+									<label for="txtName">Date</label>
+									<input type="text" id="txtDate" class="span6" value="" />
+									<div class="separator"></div>
+
+									<label for="txtName">Customer</label>
+									<input type="text" id="txtCustomer" class="span6" value="" />
+									<div class="separator"></div>
+
+									<label for="txtName">Tracking No</label>
+									<input type="text" id="txtTrackingNo" class="span6" value="" />
+									<div class="separator"></div>
+
+									<label for="txtName">Status</label>
+									<input type="text" id="txtStatus" class="span6" value="" />
+									<div class="separator"></div>
+
+									<label for="txtName">Consignee</label>
+									<input type="text" id="txtConsignee" class="span6" value="" />
+									<div class="separator"></div>
+
+									<hr class="separator bottom">
+									<br />
+									<br />
+
+								</div>
+
+								<div class="span12">
+									<!-- page number -->
+									<div id="pageNumber" class="text-center"></div>
+
+									<div id="controls" class="widget-body" style="padding: 10px 0;">
+										<button id="first" class="btn dropdown-lead btn-default pull-left" onclick="first()"
+											style="margin: 10px;">First</button>
+										<button id="previous" class="btn dropdown-lead btn-default pull-left"
+											onclick="previous()" style="margin: 10px;">Previous</button>
+										<button id="last" class="btn dropdown-lead btn-default pull-right" onclick="last()"
+											style="margin: 10px;">Last</button>
+										<button id="next" class="btn dropdown-lead btn-default pull-right"
+											onclick="next()" style="margin: 10px;">Next</button>
+									</div>
+								</div>
+							</div> <!-- Row fluid -->
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div> <!-- end Content -->
+
+	</div>
+
+	<script>getData()</script>
+
+</body>
+
+</html>
